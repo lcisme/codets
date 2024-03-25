@@ -21,6 +21,7 @@ let proObject2: {
   address: "23",
   phone: 3423423443,
 };
+ 
 
 let test: (string | number)[] = [
   "lecuong",
@@ -133,4 +134,5 @@ let dcm = new Person(1,"le phu cuong","0966876014")
 let checkName = dcm.name
 dcm.name = "dumamay"
 console.log(dcm);
+console.log("name is ", dcm);
 console.log("name is ", dcm);
